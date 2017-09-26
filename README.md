@@ -93,7 +93,7 @@ Methods
 
 * **(constructor)**() - Creates and returns a new FTP client instance.
 
-* **connect**(< _object_ >config) - _(void)_ - Connects to an FTP server. Valid config properties:
+* **connect**(< _object_ >config) -  < _function_ >callback) - _(void)_ - Connects to an FTP server.  `callback` has 1 parameter: < _Error_ >err. Valid config properties:
 
     * host - _string_ - The hostname or IP address of the FTP server. **Default:** 'localhost'
 
