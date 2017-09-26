@@ -1,15 +1,15 @@
 {
   "name": "socksftp2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Bhanu P Chaudhary"
   },
   "description": "A SOCKS FTP client module for node.js forked from a fork of Choon Jin Ng work",
   "main": "./lib/connection",
   "dependencies": {
-    "xregexp": "2.0.0",
-    "readable-stream": "1.1.x",
-    "socks-client": "1.0.6"
+    "xregexp": "3.2.0",
+    "readable-stream": "2.3.3",
+    "socks": "1.1.10"
   },
   "keywords": [
     "ftp",
