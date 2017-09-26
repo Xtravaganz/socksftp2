@@ -3,13 +3,13 @@ Description
 
 node-socksftp is a SOCKS FTP client module for [node.js](http://nodejs.org/) that provides an asynchronous interface for communicating with an FTP server supporting SOCKS proxy.
 
-This is a fork of node-socksftp (http://github.com/choonyme/node-socksftp).
+This is a fork of Christian Kessler fork(https://github.com/cgkio/socksftp) of node-socksftp (http://github.com/choonyme/node-socksftp), as socksftp module did not had any option to report issues.
 
 
 Install
 =======
 
-    npm install socksftp
+    npm install socksftp2
 
 
 Examples
